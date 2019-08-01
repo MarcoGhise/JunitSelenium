@@ -1,0 +1,15 @@
+<html>
+<head>
+  <title>getElementById example</title>
+  <script>
+  function changeColor(newColor) {
+   var elem = document.getElementById('para');
+   elem.style.color = newColor;
+   elem.innerHTML = "Js Test";
+  }
+  </script>
+</head>
+<body onLoad="changeColor('blue')">
+  <p id="para">text here</p>
+</body>
+</html>
